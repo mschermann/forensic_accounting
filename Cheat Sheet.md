@@ -2,7 +2,7 @@
 
 **Important**: 
 * `df` is the dataframe that you are using (i.e., the table of data that you are analyzing)
-* `new_df is the target variable that stores the result of your actions.
+* `new_df` is the target variable that stores the result of your actions.
 
 ## Reducing a dataframe to a set of columns that are of interest
 ```
@@ -10,8 +10,8 @@ new_df = df.loc[:, ['COL_1_NAME', 'COL_2_NAME', 'COL_N_NAME']]
 ```
 
 ## Filtering a dataframe
-new_df = df[df['COL_NAME']=='VALUE'] - filtering on string values
-new_df = df[df['COL_NAME']==VALUE] - filtering on numeric values
+`new_df = df[df['COL_NAME']=='VALUE']` - filtering on string values
+`new_df = df[df['COL_NAME']==VALUE]` - filtering on numeric values
 
 
 ## Display a dataframe
@@ -36,7 +36,9 @@ df['COL_NAME'] = df['COL_NAME'].astype(int)
 
 ## Simple plotting
 A very quick look at the data often reveals important insights. The following command displays a scatterplot.
+```
 plt.scatter(df['COL_X_NAME, df['COL_Y_NAME'])
+```
 
 ## Combining dataframes
 Combining dataframes requires a shared column in both dataframes. The following command left-joins `df1` and `df2`.
