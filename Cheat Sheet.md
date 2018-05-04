@@ -12,6 +12,7 @@ new_df = df.loc[:, ['COL_1_NAME', 'COL_2_NAME', 'COL_N_NAME']]
 ## Filtering a dataframe
 `new_df = df[df['COL_NAME']=='VALUE']` - filtering on string values
 `new_df = df[df['COL_NAME']==VALUE]` - filtering on numeric values
+`new_df = df_1[df_1['COL_NAME'].isin(df_2['COL_NAME'])]` - filtering on the values of a column in another table 
 
 
 ## Display a dataframe
@@ -54,4 +55,10 @@ df.groupby('COL_NAME')['COL_NAME'].function()
 The following example shows the group-specific means for `COL_NAME`:
 ```
 df.groupby('COL_NAME')['COL_NAME'].mean()
+```
+
+## Create dummy variables
+Dummy variables help to understand the role of categorial variable. We can store the dummies back into the a dataframe.
+```
+new_df = df.join(df['COL_NAME'].str.get_dummies())
 ```
