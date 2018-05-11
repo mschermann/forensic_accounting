@@ -91,7 +91,7 @@ new_df = df.join(df['COL_NAME'].str.get_dummies())
 ```
 df['COL_NAME'] = df['COL_NAME'].map({VALUE_1: NEW_VALUE_1, VALUE_2: NEW_VALUE_2})
 ```
-Use `''` to denote string variables (e.g., 'NEW_VALUE_1')
+Use `''` to denote string variables (e.g., `'NEW_VALUE_1'`)
 
 ## Creating a pivot table
 ```
