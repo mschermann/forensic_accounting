@@ -33,4 +33,8 @@ The [Caribbean Cruise.ipynb](https://github.com/mschermann/forensic_accounting/b
 * Pivot tables
 * Explaining the fraud case
 
-The [Evaporating Inventory Stub.ipynb](https://github.com/mschermann/forensic_accounting/blob/master/Evaporating%20Inventory%20Stub.ipynb) contains a starting file. 
+The [Evaporating Inventory Stub.ipynb](https://github.com/mschermann/forensic_accounting/blob/master/Evaporating%20Inventory%20Stub.ipynb) contains a starting file.
+
+The [Evaporating Inventory.ipynb](https://github.com/mschermann/forensic_accounting/blob/master/Evaporating%20Inventory.ipynb) contains a solution.
+
+
