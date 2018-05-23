@@ -38,7 +38,7 @@ df['COL_NAME'] = df['COL_NAME'].astype(int)
 ## Simple plotting
 A very quick look at the data often reveals important insights. The following command displays a scatterplot.
 ```
-plt.scatter(df['COL_X_NAME, df['COL_Y_NAME'])
+plt.scatter(df['COL_X_NAME'], df['COL_Y_NAME'])
 ```
 
 ## Faceted Bar charts plotting
