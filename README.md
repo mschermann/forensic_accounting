@@ -37,4 +37,11 @@ The [Evaporating Inventory Stub.ipynb](https://github.com/mschermann/forensic_ac
 
 The [Evaporating Inventory.ipynb](https://github.com/mschermann/forensic_accounting/blob/master/Evaporating%20Inventory.ipynb) contains a solution.
 
+## 2. Financial Statements
+* Analysis of financial statement data from the [SEC](https://www.sec.gov/data)
+* Data Cleaning and Wrangling (Adjustment for reporting differences)
+* Compare companies with Ratios
 
+[Financial Statement Analysis 1.ipynb](https://github.com/mschermann/forensic_accounting/blob/master/Financial%20Statement%20Analysis%201.ipynb) contains a simple analysis of Apple.
+
+[Financial Statement Analysis 2.ipynb](https://github.com/mschermann/forensic_accounting/blob/master/Financial%20Statement%20Analysis%202.ipynb) compares the Gross Profit Margin of Apple, Microsoft, and Facebook.
