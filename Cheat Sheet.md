@@ -101,5 +101,13 @@ new_df = df.pivot_table(index=['COL_NAME_1','COL_NAME_2'], columns='KEY', values
 * `columns` means the column(s) that become the keyed columns.
 * `values` means the column(s) that contain the values of the pivot table.
 
+## Row-wise operations
+Average between two subsequent rows
+```
+df['mean'] = (df['value'] + df['value'].shift(1))/2
+```
 
-
+Growth-rate between two subsequent rows
+```
+df['rate'] = df['value'].pct_change(1)
+```
