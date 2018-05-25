@@ -111,3 +111,13 @@ Growth-rate between two subsequent rows
 ```
 df['rate'] = df['value'].pct_change(1)
 ```
+
+## Convert formatted numbers into float values
+Remove the `,`
+```
+df['value'] = df['value'].str.replace(',','')
+```
+Change the type of the column
+```
+df['value'] = df['value'].astype(float)
+```
