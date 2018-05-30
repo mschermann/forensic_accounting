@@ -81,6 +81,12 @@ new_df = df.groupby(['COL_NAME_1','COL_NAME_2']).agg({'COL_NAME_1':'function','C
 
 You can replace `function` with `mean` with `min`, `max`, `unique`, etc.
 
+The following command allows you to count the number of occurences in a group.
+```
+new_df = df.groupby('COL_NAME_1')['COL_NAME_2'].value_counts().reset_index(name='count')
+```
+This tells you how often `COL_NAME_2` appears in each group of `COL_NAME_1`.
+
 ## Create dummy variables
 Dummy variables help to understand the role of categorial variable. We can store the dummies back into the a dataframe.
 ```
