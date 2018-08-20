@@ -46,4 +46,5 @@ The [Evaporating Inventory.ipynb](https://github.com/mschermann/forensic_account
 
 [Financial Statement Analysis 2.ipynb](https://github.com/mschermann/forensic_accounting/blob/master/Financial%20Statement%20Analysis%202.ipynb) compares the Gross Profit Margin of Apple, Microsoft, and Facebook.
 
+### Acknowledgement
 We gratefully acknowledge partial support for the development of these case studies by the [Stifterverband für die Deutsche Wissenschaft](https://www.stifterverband.org/).
